@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Изучаем Верстку</title>
+</head>
+
+<body>
+
+	
+
+	<div class="wrapper">
+		<audio autoplay loop controls src="audio/111.mp3"></audio>
+		<header class="header">
+
+			<div class="container">
+				<div class="header__iner">
+					<div class="header__logo">
+						<img src="img/header/hotpng.com.png" alt="">
+					</div>
+					<div class="header__nav">
+						<ul class="navigation">
+							<li class="header__list"><a href="#main__b1" class="header__link">
+									Что такое - Border?
+								</a></li>
+							<li class="header__list"><a href="#main__b2" class="header__link">
+									Что такое - Outline?
+								</a></li>
+							<li class="header__list"><a href="#main__b3" class="header__link header__link--green">
+									Что такое - Border-radius?
+								</a></li>
+							<li class="header__list"><a href="#main__b4" class="header__link header__link--orange">
+									Что такое --- Box - shadow ?
+								</a></li>
+							<li class="header__list"><a href="#main__b5" class="header__link header__link--purple">
+									Что такое - opacyti ??
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+
+		<main class="main">
+
+			<div class="container">
+
+				<section class="section">
+
+					<h2 class="section">
+						<span class="section__span">
+							Приветствую ребята и девчата!
+							Повторяем пройденый урок!
+						</span>
+						<!-- <p class="section__p">
+							<ul class="section__list">
+								<li class="section__drop">
+									Что такое - <a href="">border</a>!
+								 </li>
+								<li class="section__drop">
+									Что такое - <a href="">outline</a>!
+								</li>
+								<li class="section__drop">
+									Что такое - <a href="">box-shadow</a>!
+								</li>
+								<li class="section__drop"></li>
+								<li class="section__drop"></li>
+							</ul>
+						</p> -->
+					</h2>
+
+				</section>
+
+				<div id="main__b1" class="main__block1">
+
+					<section class="section__block">
+						<h2 class="section__block1">
+							Border
+						</h2>
+					</section>
+
+
+					<div class="main__content">
+
+						<div class="main__iner">
+
+
+							<div class="main__item1">
+
+								<div class="main__img">
+									<img src="img/main/fiks/zero.png" alt="">
+								</div>
+
+							</div>
+
+							<div class="main__one">
+								<span class="main__onespan">
+									"border"
+								</span>
+								- это свойство CSS позволяет указать стиль, ширину и цвет границы элемента.
+								<p>Интересный факт - При указывании свойства <span class="main__onespan">box-sizing:
+										border-box;</span></p>
+								<p><span class="main__onespan">border</span> не будет влиять на общую ширину блока, а будет
+									включен в неё и
+									просто будет толкать
+									контент внутрь блока что сравнимо со свойством padding </p>
+								<p>правило написания данного свойства вышлядит следующим образом <span
+										class="main__onespan">border:размер рамки - стиль
+										рамки - цвет рамки;</span>
+								</p>
+								<p>
+									Свойство бордер можно указать как всем сторонам одновременно так и каждой отдельно:
+									<span class="main__onespan">
+										border-top,
+										border-bottom,
+										border-right,
+										border-left,
+									</span>
+
+								</p>
+
+							</div>
+
+
+						</div>
+
+						<div class="main__iner2">
+
+							<div class="main__border">
+								У меня границы со всех сторон - border: 1px solid #000;
+							</div>
+
+							<div class="main__border1">
+								У меня границы со двух сторон -
+								border-right: 2px solid #000;
+								и
+								border-left:2px solid #000;
+
+							</div>
+
+							<div class="main__border3">
+								У меня границы со двух сторон -
+								border-top: 2px solid #000;
+								и
+								border-bottom:2px solid #000;
+							</div>
+
+							<div class="main__border4">
+								У меня границы со всех сторон в виде пунктирной линии - border: 2px dashed #000;
+							</div>
+
+							<div class="main__border5">
+								У меня границы со всех сторон в виде маленьких кружков - border: 2px dotted #000;
+							</div>
+
+							<div class="main__border6">
+								У меня границы со всех сторон в виде двух линий - border: 2px double #000;
+							</div>
+
+							<div class="main__border7">
+								У меня границы со всех сторон в виде трехмерной рифленой границе - border: 2px groove #000;
+							</div>
+
+							<div class="main__border8">
+								У меня границы со всех сторон в виде трехмерной ребристой границы - border: 2px ridge #000;
+							</div>
+
+							<div class="main__border9">
+								У меня границы со всех сторон в виде 3D вставки - border: 2px inset #000;
+							</div>
+
+							<div class="main__border10">
+								У меня границы со всех сторон в виде исходной трехмерной границы - border: 2px outset #000;
+							</div>
+
+							<div class="main__border11">
+								У меня границы со всех сторон скрыты - border: 2px hidden #000;
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+
+				<div id="main__b2" class="main__block2">
+
+					<section class="section__block">
+						<h2 class="section__block1">
+							Outline
+						</h2>
+					</section>
+
+					<div class="main__content2">
+
+						<div class="main__inest">
+
+							<div class="main__outline">
+
+								<div class="main__inet">
+									Привет! Я - Outline со свойством - dotted ( точечный контур) - outline: 1px dotted #000;
+								</div>
+								<div class="main__inet1">
+									Привет! Я - Outline со свойством - dashed( пунктирный контур) - outline: 1px dashed #000;
+								</div>
+								<div class="main__inet2">
+									Привет! Я - Outline со свойством - solid ( сплошной контур) - outline: 1px solid #000;
+								</div>
+								<div class="main__inet3">
+									Привет! Я - Outline со свойством - double ( двойной контур) - outline: 1px double #000;
+								</div>
+								<div class="main__inet4">
+									Привет! Я - Outline со свойством - ridge ( трехмерный ребристый контур) - outline: 1px ridge
+									#000;
+								</div>
+								<div class="main__inet5">
+									Привет! Я - Outline со свойством - inset ( контур 3D-вставки) - outline: 1px inset #000;
+								</div>
+								<div class="main__inet6">
+									Привет! Я - Outline со свойством - outset ( исходный трехмерный контур) - outline: 1px outset
+									#000;
+								</div>
+								<div class="main__inet7">
+									Привет! Я - Outline со свойством - hidden ( скрытый контур) - outline: 1px hiden #000;
+								</div>
+
+							</div>
+
+
+
+							<div class="main__inert">
+
+								<div class="main__inert--text">
+									Outline - универсальное свойство, одновременно устанавливающее цвет, стиль и толщину внешней
+									границы на всех
+									четырех сторонах элемента. В отличие от линии, задаваемой через border, свойство outline не
+									влияет на положение
+									блока и его ширину. Также нельзя задать параметры линии на отдельных сторонах элемента,
+									outline применяется
+									сразу ко всем четырём сторонам.
+									Так же к outline нельзя применить свойство border-radius.
+								</div>
+
+								<div class="main__image">
+									<img src="img/main/fiks/b2.png" alt="">
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+
+
+				</div>
+
+				<div id="main__b3" class="main__block3">
+
+
+					<section class="section__block22">
+						<h2 class="section__block11">
+							Border-Radius
+						</h2>
+					</section>
+
+
+					<div class="main__bord">
+
+						<div class="main__photo">
+							<div class="main__ph1">
+								<img src="img/main/fiks/3.png" alt="">
+							</div>
+
+							<div class="main__textph1">
+								Полностью согласна с Дедусом!
+								Ведь правильно используя dorder-radius можно создавать множество разных вариантов украшений для
+								блока! Главное правильно его записать. border-radius:0px(верхний левый угол) 0px(верхний правый
+								угол) 0px(нижний правый угол) 0px (нижний левый угол);
+								Запись может быть как в пикселях так и процентах. Процент берётся от общей ширины блока.
+							</div>
+						</div>
+
+						<div class="main__radius">
+							<div class="main__br"></div>
+							<div class="main__br1"></div>
+							<div class="main__br2"></div>
+							<div class="main__br3"></div>
+							<div class="main__br4"></div>
+							<div class="main__br5"></div>
+							<div class="main__br6"></div>
+							<div class="main__br7"></div>
+							<div class="main__br8"></div>
+							<div class="main__br9"></div>
+							<div class="main__br10"></div>
+							<div class="main__br11"></div>
+							<div class="main__br12"></div>
+							<div class="main__br13"></div>
+							<div class="main__br14"></div>
+							<div class="main__br15"></div>
+							<div class="main__br16"></div>
+							<div class="main__br17"></div>
+							<div class="main__br18"></div>
+							<div class="main__br19"></div>
+							<div class="main__br120"></div>
+						</div>
+
+						<div class="main__photo">
+							<div class="main__ph2">
+								<img src="img/main/fiks/4.png" alt="">
+							</div>
+
+							<div class="main__textph2">
+								border-radius — это CSS-свойство, позволяющее разработчикам определять, как скругляются границы
+								блока.
+								Закругленность каждого угла определяется с помощью одного или двух радиусов, определяя его
+								форму: круг или
+								эллипс.
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="main__b4" class="main__block4">
+
+					<section class="section__block">
+						<h2 class="section__block1">
+							Box - shadow
+						</h2>
+					</section>
+
+					<div class="main__content4">
+
+
+						<div class="main__block5">
+
+
+
+
+
+							<div class="main__ph3">
+								<img src="img/main/fiks/papus.png" alt="">
+
+								<div class="main__textfater">
+									<div class="">
+										Всем привет! Я расскажу вам что такое Box - shadow и зачем он нужен!
+										Box - shadow это свойство которое добавляет тень к элементам div. Тень может быть как
+										наружная так и
+										внутренняя так же они могут быть прописаны одновременно и отображаться вместе. Что
+										позволяет делать
+										просто немыслемой красоты вещи!
+										<p class="main__textpp">Записывается данной свойство вот так - box-shadow: 0px(сдвиг по
+											горизонтали) 0px (сдвиг по вертикали) 0px (размытие тени) 0px (размер тени) rgb() (цвет
+											тени);
+											Значения так же могут быть отрицательными.
+										</p>
+										<p class="main__textpp">Что бы сдвинуть тень внутрь достаточно вписать inset перед
+											указаниями значений тени.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="main__shadow">
+								<div class="main__texttt"></div>
+								<div class="main__texttt1"></div>
+								<div class="main__texttt2"></div>
+								<div class="main__texttt3"></div>
+								<div class="main__texttt4"></div>
+								<div class="main__texttt5"></div>
+								<div class="main__texttt6"></div>
+								<div class="main__texttt7"></div>
+								<div class="main__texttt8"></div>
+								<div class="main__texttt9"></div>
+								<div class="main__texttt10"></div>
+								<div class="main__texttt11"></div>
+								<div class="main__texttt12"></div>
+								<div class="main__texttt13"></div>
+								<div class="main__texttt14"></div>
+								<div class="main__texttt15"></div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div id="main__b5" class="main__block4">
+
+					<section class="section__block">
+						<h2 class="section__block1">
+							Opasity & Visibility
+						</h2>
+					</section>
+
+					<div class="main__opas">
+
+						<div class="main__opacity">
+
+							<div class="main__pop">
+
+								<div class="main__popimg">
+									<img src="img/main/fiks/pop.png" alt="">
+								</div>
+
+								<div class="main__poptext">
+
+									Меня зовут Папус и я расскажу Вам что такое Opacity!
+									<p class="main__textpp">
+										Opacity Свойство определяет непрозрачность / прозрачность элемента.
+										Чаще всего Opasity используется с псевдоэлементов hover который делает элемент прозрачным
+										при наводе мышью.
+									</p> Значение прозрачности устанавливается от 1 до 0 (чем меньше значение тем больше
+									прозрачность )
+									Так же при полной прозрачности элемент не исчезает из конструкции сайта. Он просто
+									становиться прозрачным
+
+
+								</div>
+							</div>
+
+							<div class="main__team">
+
+								<img class="main__team1" src="img/main/fiks/unnamed.png" alt="">
+								<img class="main__team2" src="img/main/fiks/unnamed.png" alt="">
+								<img class="main__team3" src="img/main/fiks/unnamed.png" alt="">
+
+								<div class="main__teamtext">
+
+									О нееет! Мы становимся прозрачными......
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="main__visibility">
+
+							<div class="main__vistext">
+								Visibility - Предназначен для отображения или скрытия элемента, включая рамку вокруг него и фон.
+								При скрытии
+								элемента, хотя он и становится не виден, место, которое элемент занимает, остается за ним. Если
+								предполагается
+								вывод разных элементов в одно и то же место экрана, для обхода этой особенности следует
+								использовать абсолютное
+								позиционирование или воспользоваться свойством display.
+								В отличие от opasity, visibility имеет конкретные значения:
+								<p class="main__visp">
+									Отображает элемент как видимый.
+								</p>
+								<p class="main__visp">
+									hidden - Элемент становится невидимым или правильней сказать, полностью прозрачным, поскольку
+									он продолжает
+									участвовать в форматировании страницы.
+								</p>
+								<p class="main__visp">
+									collapse - Если это значение применяется не к строкам или колонкам таблицы, то результат его
+									использования
+									будет таким же, как hidden. В случае использования collapse для содержимого ячеек таблиц, то
+									они реагируют,
+									словно к ним было добавлено display: none. Иными словами, заданные строки и колонки
+									убираются, а таблица
+									перестраивается по новой. Это значение не поддерживается браузером Internet Explorer.
+								</p>
+								<p class="main__visp">
+									inherit - Наследует значение родителя.
+								</p>
+							</div>
+							<div class="main__visimg">
+								<img src="img/main/fiks/mmm.png" alt="">
+
+								<div class="main__visimgtext">
+									Меня не видно, но я тут есть.....
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+
+				</div>
+
+				<div class="main__block4 main__block4--44">
+
+					<section class="section__block">
+						<h2 class="section__block1">
+							Рубрика - Эксперименты
+						</h2>
+					</section>
+
+					<div class="main__experement">
+						<div class="main__exp">
+
+							<img src="img/main/fiks/555555.png" alt="">
+
+						</div>
+
+						<div class="main__exper">
+
+							<div class="main__d1"></div>
+							<div class="main__d2"></div>
+							<div class="main__d3"></div>
+							<div class="main__d4"></div>
+							<div class="main__d5"></div>
+							<div class="main__d6"></div>
+							<div class="main__d7"></div>
+							<div class="main__d8"></div>
+							<div class="main__d9"></div>
+							<div class="main__d10"></div>
+							<div class="main__d11"></div>
+							<div class="main__d12"></div>
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
+			</div>
+
+		</main>
+
+		<footer class="footer">
+
+			<div class="main__block4">
+
+				<section class="section__block">
+					<h2 class="section__block1">
+						До новых встреч, друзья!
+					</h2>
+				</section>
+
+				<div class="footer__foot">
+					<div class="footer__img">
+
+
+						<img class="footer__imge" src="img/main/fiks/pop.png" alt="">
+						<img class="footer__imgas" src="img/main/fiks/11.png" alt="">
+
+
+					</div>
+
+					<div class="footer__text">
+
+						Обучайся, развивайся и помни!
+						Живи, а работай в свободное время!
+
+					</div>
+				</div>
+
+			</div>
+
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
